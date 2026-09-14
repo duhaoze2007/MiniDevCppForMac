@@ -44,7 +44,7 @@ SwiftUI for macOS 14 and later.
 ## Build / 构建
 
 ```bash
-git clone git@github.com:duhaoze2007/MiniDevCpp.git
+git clone git@github.com:duhaoze2007/MiniDevCppForMac.git
 cd MiniDevCpp
 bash build.sh          # builds MiniDevCpp and produces "Mini Dev-C++.app"
 open "Mini Dev-C++.app"
@@ -151,7 +151,7 @@ as the design reference only.
 ## 构建
 
 ```bash
-git clone git@github.com:duhaoze2007/MiniDevCpp.git
+git clone git@github.com:duhaoze2007/MiniDevCppForMac.git
 cd MiniDevCpp
 bash build.sh          # 构建 MiniDevCpp 并生成 "Mini Dev-C++.app"
 open "Mini Dev-C++.app"
