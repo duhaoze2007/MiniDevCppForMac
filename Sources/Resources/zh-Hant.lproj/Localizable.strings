@@ -1,0 +1,94 @@
+/* Mini Dev-C++ — Traditional Chinese system menu strings. */
+
+/* App menu */
+"About %@" = "關於 %@";
+"Hide" = "隱藏 %@";
+"Hide Others" = "隱藏其他";
+"Show All" = "顯示全部";
+"Quit" = "結束 %@";
+"Quit and Keep Windows" = "結束並保留視窗";
+"Services" = "服務";
+"Services Settings…" = "服務設定…";
+
+/* Menu titles AppKit builds itself */
+"File" = "檔案";
+"Edit" = "編輯";
+"View" = "顯示";
+"Window" = "視窗";
+"Help" = "輔助說明";
+"Search" = "搜尋";
+
+/* Edit menu */
+"Undo" = "還原";
+"Redo" = "重做";
+"Cut" = "剪下";
+"Copy" = "拷貝";
+"Paste" = "貼上";
+"Paste and Match Style" = "貼上並符合樣式";
+"Delete" = "刪除";
+"Select All" = "全選";
+"Start Dictation" = "開始聽寫";
+"Emoji & Symbols" = "表情符號";
+"AutoFill" = "自動填寫";
+"Contact…" = "聯絡人…";
+"Passwords…" = "密碼…";
+
+/* Writing Tools */
+"Writing Tools" = "寫作工具";
+"Show Writing Tools" = "顯示寫作工具";
+"Proofread" = "校對";
+"Rewrite" = "改寫";
+"Make Friendly" = "更親切";
+"Make Professional" = "更專業";
+"Make Concise" = "更精簡";
+"Summarize" = "生成摘要";
+"Create Key Points" = "擷取重點";
+"Make List" = "製作列表";
+"Make Table" = "製作表格";
+"Compose…" = "撰寫…";
+
+/* View menu extras */
+"Show Tab Bar" = "顯示標籤頁列";
+"Show All Tabs" = "顯示所有標籤頁";
+"Enter Full Screen" = "進入全螢幕";
+
+/* Window menu */
+"Window" = "視窗";
+"Close" = "關閉";
+"Close All" = "關閉全部";
+"Minimize" = "縮到最小";
+"Minimize All" = "全部縮到最小";
+"Zoom" = "縮放";
+"Zoom All" = "全部縮放";
+"Fill" = "填滿";
+"Center" = "置中";
+"Move & Resize" = "移動與調整大小";
+"Halves" = "二等分";
+"Quarters" = "四等分";
+"Left" = "左側";
+"Right" = "右側";
+"Top" = "頂部";
+"Bottom" = "底部";
+"Top Left" = "左上";
+"Top Right" = "右上";
+"Bottom Left" = "左下";
+"Bottom Right" = "右下";
+"Arrange" = "排列";
+"Left & Right" = "左側與右側";
+"Left & Quarters" = "左側與四等分";
+"Right & Left" = "右側與左側";
+"Right & Quarters" = "右側與四等分";
+"Top & Bottom" = "頂部與底部";
+"Top & Quarters" = "頂部與四等分";
+"Bottom & Top" = "底部與頂部";
+"Bottom & Quarters" = "底部與四等分";
+"Return to Previous Size" = "回復上一個大小";
+"Full Screen Tile" = "全螢幕並排";
+"Remove Window from Set" = "從組合中移除視窗";
+"Left of Screen" = "螢幕左側";
+"Right of Screen" = "螢幕右側";
+"Bring All to Front" = "將所有視窗移到最前";
+"Show Previous Tab" = "顯示上一個標籤頁";
+"Show Next Tab" = "顯示下一個標籤頁";
+"Move Tab to New Window" = "將標籤頁移到新視窗";
+"Merge All Windows" = "合併所有視窗";

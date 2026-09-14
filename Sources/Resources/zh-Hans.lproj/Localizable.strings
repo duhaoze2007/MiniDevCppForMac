@@ -1,0 +1,96 @@
+/* Mini Dev-C++ — Simplified Chinese system menu strings.
+   AppKit/SwiftUI look these up in the main bundle for the menus macOS builds
+   itself (app menu, Window menu, text field context menus). */
+
+/* App menu */
+"About %@" = "关于 %@";
+"Hide" = "隐藏 %@";
+"Hide Others" = "隐藏其他";
+"Show All" = "显示全部";
+"Quit" = "退出 %@";
+"Quit and Keep Windows" = "退出并保留窗口";
+"Services" = "服务";
+"Services Settings…" = "服务设置…";
+
+/* Menu titles AppKit builds itself */
+"File" = "文件";
+"Edit" = "编辑";
+"View" = "显示";
+"Window" = "窗口";
+"Help" = "帮助";
+"Search" = "搜索";
+
+/* Edit menu */
+"Undo" = "撤销";
+"Redo" = "重做";
+"Cut" = "剪切";
+"Copy" = "拷贝";
+"Paste" = "粘贴";
+"Paste and Match Style" = "粘贴并匹配样式";
+"Delete" = "删除";
+"Select All" = "全选";
+"Start Dictation" = "开始听写";
+"Emoji & Symbols" = "表情与符号";
+"AutoFill" = "自动填充";
+"Contact…" = "联系人…";
+"Passwords…" = "密码…";
+
+/* Writing Tools */
+"Writing Tools" = "写作工具";
+"Show Writing Tools" = "显示写作工具";
+"Proofread" = "校对";
+"Rewrite" = "改写";
+"Make Friendly" = "更友好";
+"Make Professional" = "更专业";
+"Make Concise" = "更简洁";
+"Summarize" = "生成摘要";
+"Create Key Points" = "提炼要点";
+"Make List" = "制作列表";
+"Make Table" = "制作表格";
+"Compose…" = "创作…";
+
+/* View menu extras */
+"Show Tab Bar" = "显示标签页栏";
+"Show All Tabs" = "显示所有标签页";
+"Enter Full Screen" = "进入全屏幕";
+
+/* Window menu */
+"Window" = "窗口";
+"Close" = "关闭";
+"Close All" = "关闭全部";
+"Minimize" = "最小化";
+"Minimize All" = "全部最小化";
+"Zoom" = "缩放";
+"Zoom All" = "全部缩放";
+"Fill" = "填充";
+"Center" = "居中";
+"Move & Resize" = "移动与调整大小";
+"Halves" = "二等分";
+"Quarters" = "四等分";
+"Left" = "左侧";
+"Right" = "右侧";
+"Top" = "顶部";
+"Bottom" = "底部";
+"Top Left" = "左上";
+"Top Right" = "右上";
+"Bottom Left" = "左下";
+"Bottom Right" = "右下";
+"Arrange" = "排列";
+"Left & Right" = "左侧与右侧";
+"Left & Quarters" = "左侧与四等分";
+"Right & Left" = "右侧与左侧";
+"Right & Quarters" = "右侧与四等分";
+"Top & Bottom" = "顶部与底部";
+"Top & Quarters" = "顶部与四等分";
+"Bottom & Top" = "底部与顶部";
+"Bottom & Quarters" = "底部与四等分";
+"Return to Previous Size" = "恢复上一个大小";
+"Full Screen Tile" = "全屏幕拼贴";
+"Remove Window from Set" = "从组中移除窗口";
+"Left of Screen" = "屏幕左侧";
+"Right of Screen" = "屏幕右侧";
+"Bring All to Front" = "前置全部窗口";
+"Show Previous Tab" = "显示上一个标签页";
+"Show Next Tab" = "显示下一个标签页";
+"Move Tab to New Window" = "将标签页移到新窗口";
+"Merge All Windows" = "合并所有窗口";
