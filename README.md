@@ -14,6 +14,8 @@ SwiftUI for macOS 14 and later.
 
 - **Dev-C++ layout and menu bar** — File, Edit, Search, View, Project, Execute, Tools, Window, Help,
   with the familiar toolbar (new / open / save, compile, run, compile & run, rebuild, stop, find).
+  Every toolbar button carries a text caption under its icon — Dev-C++'s command bar, made readable —
+  and the captions can be switched off at any time with **View ▸ Button Labels**.
 - **Editor built for C** — Dev-C++ colour scheme (bold blue reserved words, navy preprocessor lines and
   string literals, grey comments), line-number gutter, smart indentation on `{`, `}` de-indent,
   configurable tab width / spaces, word wrap, current-line highlight, ⌘/ line comment toggle, and the
@@ -68,6 +70,8 @@ yourself to override the choice.
 
 1. `⌘N` for a new file, `⌘O` to open a `.c` file, or **File ▸ Open Folder as Project…**
    to load a folder as a project (its sources appear in the project explorer).
+   Handing a file or folder to the app (Finder open, `open -a "Mini Dev-C++" path`) opens it too —
+   a folder becomes a project, just like double-clicking a `.c` file in Dev-C++.
 2. Write C code; keywords, comments, strings and directives are highlighted as you type.
 3. `⌘B` compiles, `⌘R` runs, `⌘⏎` compiles and runs in one step, `⇧⌘B` rebuilds everything,
    `⌘.` stops a running program.
@@ -127,7 +131,8 @@ as the design reference only.
 ## 功能
 
 - **Dev-C++ 的布局与菜单栏** —— 文件、编辑、搜索、视图、项目、运行、工具、窗口、帮助，以及熟悉的工具栏
-  （新建 / 打开 / 保存、编译、运行、编译并运行、全部重新编译、停止、查找）。
+  （新建 / 打开 / 保存、编译、运行、编译并运行、全部重新编译、停止、查找）。每个按钮图标下方都带有文字标注
+  —— 把 Dev-C++ 的命令栏做成一目了然的样式 —— 可在 **「显示 ▸ 显示按钮文字」** 中随时关闭。
 - **面向 C 的编辑器** —— Dev-C++ 配色（关键字蓝色加粗、预处理指令与字符串常量深蓝、注释灰色），行号栏，
   大括号智能缩进、`}` 自动回退缩进，Tab 宽度与"空格代替 Tab"可调，自动换行、当前行高亮，⌘/ 注释切换，
   以及系统原生的查找替换栏。
@@ -170,7 +175,8 @@ macOS 上正常运行。若已安装 Xcode，则不启用该回退。也可自�
 ## 使用
 
 1. `⌘N` 新建文件，`⌘O` 打开 `.c` 文件，或用「文件 ▸ 打开文件夹作为项目…」把文件夹作为项目载入
-   （其中的源文件会出现在左侧项目浏览器中）。
+   （其中的源文件会出现在左侧项目浏览器中）。也可以把文件或文件夹直接交给程序打开
+   （在访达中打开，或 `open -a "Mini Dev-C++" 路径`）—— 文件夹会作为项目载入，相当于 Dev-C++ 里双击 `.c` 文件。
 2. 直接编写 C 代码，关键字、注释、字符串与指令会即时高亮。
 3. `⌘B` 编译，`⌘R` 运行，`⌘⏎` 一步编译并运行，`⇧⌘B` 全部重新编译，`⌘.` 停止正在运行的程序。
 4. 错误与警告显示在「编译器」标签中 —— 点击即可跳转到对应行；程序输出与 stdin 位于「程序输出」标签。

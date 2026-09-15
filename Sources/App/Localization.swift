@@ -60,7 +60,9 @@ enum LKey: String, CaseIterable {
     // view menu
     case viewProjectPane, viewOutputPane, viewAppearance, viewThemeSystem, viewThemeLight, viewThemeDark
     case viewFontBigger, viewFontSmaller, viewFontReset, viewFullScreen
-    case viewLineNumbers, viewWrapLines, viewHighlight, viewHighlightLine
+    case viewLineNumbers, viewWrapLines, viewHighlight, viewHighlightLine, viewToolbarLabels
+    // standard menu titles that AppKit would otherwise localize from the system
+    case menuWindow
     // project menu
     case projectOpenFolder, projectReload, projectShowInFinder, projectNewFile
     // execute menu
@@ -72,6 +74,9 @@ enum LKey: String, CaseIterable {
     // toolbar tooltips
     case tbNew, tbOpen, tbOpenFolder, tbSave, tbSaveAll, tbClose, tbCompile, tbRun, tbCompileRun
     case tbRebuild, tbStop, tbFind, tbOptions, tbParameters, tbTerminal
+    // short captions shown under the toolbar icons
+    case btNew, btOpen, btOpenFolder, btSave, btSaveAll, btClose, btCompile, btRun, btCompileRun
+    case btRebuild, btStop, btFind, btParams, btTerminal, btProject, btOutput, btOptions
     // panels
     case paneProject, paneOpenFiles, paneNoProject
     case welcomeTitle, welcomeHint, welcomeNew, welcomeOpen
@@ -120,9 +125,9 @@ enum L10n {
         .menuFile: ["File", "文件", "檔案"],
         .menuEdit: ["Edit", "编辑", "編輯"],
         .menuSearch: ["Search", "搜索", "搜尋"],
-        .menuView: ["View", "视图", "檢視"],
+        .menuView: ["View", "显示", "顯示方式"],
         .menuProject: ["Project", "项目", "專案"],
-        .menuExecute: ["Execute", "运行", "執行"],
+        .menuExecute: ["Execute", "执行", "執行"],
         .menuTools: ["Tools", "工具", "工具"],
         .menuHelp: ["Help", "帮助", "說明"],
 
@@ -246,6 +251,8 @@ enum L10n {
         .viewWrapLines: ["Word Wrap", "自动换行", "自動換行"],
         .viewHighlight: ["Syntax Highlighting", "语法高亮", "語法高亮"],
         .viewHighlightLine: ["Highlight Current Line", "高亮当前行", "標示目前行"],
+        .viewToolbarLabels: ["Button Labels", "显示按钮文字", "顯示按鈕文字"],
+        .menuWindow: ["Window", "窗口", "視窗"],
 
         // ── project menu ───────────────────────────────────────────────────
         .projectOpenFolder: ["Open Folder as Project…", "打开文件夹作为项目…", "開啟資料夾為專案…"],
@@ -289,6 +296,25 @@ enum L10n {
         .tbOptions: ["Options", "选项", "選項"],
         .tbParameters: ["Run parameters", "运行参数", "執行參數"],
         .tbTerminal: ["Run in Terminal", "在终端中运行", "在終端機中執行"],
+
+        // ── toolbar captions ───────────────────────────────────────────────
+        .btNew: ["New", "新建", "新增"],
+        .btOpen: ["Open", "打开", "開啟"],
+        .btOpenFolder: ["Open Folder", "打开目录", "開啟目錄"],
+        .btSave: ["Save", "保存", "儲存"],
+        .btSaveAll: ["Save All", "全部保存", "全部儲存"],
+        .btClose: ["Close", "关闭", "關閉"],
+        .btCompile: ["Compile", "编译", "編譯"],
+        .btRun: ["Run", "运行", "執行"],
+        .btCompileRun: ["Build & Run", "编译并运行", "編譯並執行"],
+        .btRebuild: ["Rebuild", "重新编译", "重新編譯"],
+        .btStop: ["Stop", "停止", "停止"],
+        .btFind: ["Find", "查找", "尋找"],
+        .btParams: ["Params", "运行参数", "執行參數"],
+        .btTerminal: ["Terminal", "终端", "終端"],
+        .btProject: ["Project", "项目栏", "專案欄"],
+        .btOutput: ["Output", "输出栏", "輸出欄"],
+        .btOptions: ["Options", "选项", "選項"],
 
         // ── panels ─────────────────────────────────────────────────────────
         .paneProject: ["Project", "项目", "專案"],

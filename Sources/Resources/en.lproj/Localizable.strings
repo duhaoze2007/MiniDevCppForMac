@@ -1,0 +1,61 @@
+/* Mini Dev-C++ — English (base) menu strings.
+   Shipping an en.lproj makes English a *resolvable* localization, so when the
+   in-app language is English but the Mac itself is set to Chinese, AppKit's own
+   menus and panels still come up in English. */
+
+/* Menu titles AppKit builds itself */
+"File" = "File";
+"Edit" = "Edit";
+"View" = "View";
+"Window" = "Window";
+"Help" = "Help";
+"Search" = "Search";
+
+/* App menu */
+"About %@" = "About %@";
+"Hide" = "Hide %@";
+"Hide Others" = "Hide Others";
+"Show All" = "Show All";
+"Quit" = "Quit %@";
+"Services" = "Services";
+"Services Settings…" = "Services Settings…";
+
+/* Edit menu */
+"Undo" = "Undo";
+"Redo" = "Redo";
+"Cut" = "Cut";
+"Copy" = "Copy";
+"Paste" = "Paste";
+"Paste and Match Style" = "Paste and Match Style";
+"Delete" = "Delete";
+"Select All" = "Select All";
+
+/* View menu extras */
+"Show Tab Bar" = "Show Tab Bar";
+"Enter Full Screen" = "Enter Full Screen";
+
+/* Window menu */
+"Minimize" = "Minimize";
+"Zoom" = "Zoom";
+"Arrange" = "Arrange";
+"Bring All to Front" = "Bring All to Front";
+"Close" = "Close";
+"Close All" = "Close All";
+"Fill" = "Fill";
+"Center" = "Center";
+"Move & Resize" = "Move & Resize";
+"Full Screen Tile" = "Full Screen Tile";
+"Return to Previous Size" = "Return to Previous Size";
+"Show Previous Tab" = "Show Previous Tab";
+"Show Next Tab" = "Show Next Tab";
+"Move Tab to New Window" = "Move Tab to New Window";
+"Merge All Windows" = "Merge All Windows";
+
+/* Standard panel buttons */
+"OK" = "OK";
+"Cancel" = "Cancel";
+"Save" = "Save";
+"Don't Save" = "Don't Save";
+"Open" = "Open";
+"Go" = "Go";
+"Revert" = "Revert";

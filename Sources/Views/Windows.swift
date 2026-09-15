@@ -234,6 +234,7 @@ struct SettingsView: View {
             Toggle(settings.t(.settingsHighlight), isOn: $settings.highlight)
             Toggle(settings.t(.settingsHighlightLine), isOn: $settings.highlightCurrentLine)
             Toggle(settings.t(.settingsWrap), isOn: $settings.wrapLines)
+            Toggle(settings.t(.viewToolbarLabels), isOn: $settings.showToolbarLabels)
             Spacer()
         }
         .padding(20)

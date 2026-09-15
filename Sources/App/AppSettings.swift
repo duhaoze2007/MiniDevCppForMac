@@ -47,7 +47,8 @@ final class AppSettings: ObservableObject {
         static let wrapLines      = "MiniDevCpp.wrapLines"
         static let highlightLine  = "MiniDevCpp.highlightCurrentLine"
         static let showProject    = "MiniDevCpp.showProjectPane"
-        static let showConsole    = "MiniDevCpp.showConsole"
+        static let showConsole     = "MiniDevCpp.showConsole"
+        static let menuBar         = "MiniDevCpp.showToolbarLabels"
         static let compilerPath   = "MiniDevCpp.compilerPath"
         static let cStandard      = "MiniDevCpp.cStandard"
         static let extraFlags     = "MiniDevCpp.extraFlags"
@@ -75,6 +76,7 @@ final class AppSettings: ObservableObject {
     @Published var highlightCurrentLine: Bool { didSet { d.set(highlightCurrentLine, forKey: K.highlightLine) } }
     @Published var showProjectPane: Bool { didSet { d.set(showProjectPane, forKey: K.showProject) } }
     @Published var showConsole: Bool { didSet { d.set(showConsole, forKey: K.showConsole) } }
+    @Published var showToolbarLabels: Bool { didSet { d.set(showToolbarLabels, forKey: K.menuBar) } }
     @Published var compilerPath: String { didSet { d.set(compilerPath, forKey: K.compilerPath) } }
     @Published var cStandard: String { didSet { d.set(cStandard, forKey: K.cStandard) } }
     @Published var extraFlags: String { didSet { d.set(extraFlags, forKey: K.extraFlags) } }
@@ -101,6 +103,7 @@ final class AppSettings: ObservableObject {
         self.highlightCurrentLine = d.bool(forKey: K.highlightLine)
         self.showProjectPane = d.bool(forKey: K.showProject)
         self.showConsole = d.bool(forKey: K.showConsole)
+        self.showToolbarLabels = d.bool(forKey: K.menuBar)
         self.compilerPath = d.string(forKey: K.compilerPath) ?? "/usr/bin/clang"
         self.cStandard = d.string(forKey: K.cStandard) ?? "gnu17"
         self.extraFlags = d.string(forKey: K.extraFlags) ?? ""
@@ -128,6 +131,7 @@ final class AppSettings: ObservableObject {
             K.highlightLine: false,
             K.showProject: true,
             K.showConsole: true,
+            K.menuBar: true,
             K.compilerPath: "/usr/bin/clang",
             K.cStandard: "gnu17",
             K.extraFlags: "",
@@ -226,6 +230,7 @@ final class AppSettings: ObservableObject {
         highlightCurrentLine = false
         showProjectPane = true
         showConsole = true
+        showToolbarLabels = true
         compilerPath = "/usr/bin/clang"
         cStandard = "gnu17"
         extraFlags = ""
